@@ -1,88 +1,83 @@
-# Edge Detection Using OpenCV
+# edge-detection-opencv
 
-This project demonstrates various edge detection techniques using Python and OpenCV. Different edge detection operators are applied to identify object boundaries, intensity changes, and important image features for computer vision and image processing applications.
+## Aim
 
----
-
-## Features
-
-- Load and display an input image
-- Convert image to grayscale
-- Apply Sobel Edge Detection
-- Apply Prewitt Edge Detection
-- Apply Roberts Edge Detection
-- Apply Laplacian Edge Detection
-- Apply Canny Edge Detection
-- Display all edge-detected outputs for comparison
+To perform edge detection using Sobel, Roberts, Prewitt, Laplacian, and Canny edge detectors.
 
 ---
 
-## Technologies Used
+## Software Required
 
-- Python 3.7
-- OpenCV (`cv2`)
-- NumPy
-- Matplotlib
-- Jupyter Notebook / VS Code
-
----
-
-## Edge Detection Techniques
-
-### Sobel Edge Detector
-Detects edges in horizontal and vertical directions using image gradients.
-
-### Prewitt Edge Detector
-Uses simple directional kernels to identify edge intensity changes.
-
-### Roberts Edge Detector
-Detects edges using diagonal gradient operators and highlights fine details.
-
-### Laplacian Edge Detector
-Uses second-order derivatives to detect rapid intensity variations.
-
-### Canny Edge Detector
-A multi-stage edge detection technique that produces clean and thin edges.
+- Anaconda – Python 3.7  
+- Jupyter Notebook / VS Code  
+- OpenCV (cv2)  
+- NumPy  
+- Matplotlib  
 
 ---
 
-## Algorithm
+## ⚙️ Algorithm
 
-1. Import the required libraries
-2. Read the input image using OpenCV
-3. Convert the image to grayscale
-4. Apply Gaussian Blur for noise reduction
-5. Apply Sobel edge detection
-6. Apply Prewitt edge detection
-7. Apply Roberts edge detection
-8. Apply Laplacian edge detection
-9. Apply Canny edge detection
-10. Display all outputs using Matplotlib
+### Step 1:
+Import all the necessary modules for the program.
+
+### Step 2:
+Load an image using `cv2.imread()`.
+
+### Step 3:
+Convert the image to grayscale.
+
+### Step 4:
+Apply **Sobel operator** using OpenCV to detect edges.
+
+### Step 5:
+Apply **Prewitt operator** using custom kernels.
+
+### Step 6:
+Apply **Roberts operator** using custom kernels.
+
+### Step 7:
+Apply **Laplacian operator** using OpenCV.
+
+### Step 8:
+Apply **Canny edge detector** using OpenCV.
+
+### Step 9:
+Display all edge-detected images for comparison.
+
+---
+
+## Developed By
+
+- **Name:** ____________________________  
+- **Register No:** ______________________  
 
 ---
 
 ## Output
 
-The program displays:
+###  Sobel Edge Detector
+- Detects edges in horizontal and vertical directions  
+- Produces gradient-based edge map  
 
-- Original Image
-- Sobel Edge Detection Output
-- Prewitt Edge Detection Output
-- Roberts Edge Detection Output
-- Laplacian Edge Detection Output
-- Canny Edge Detection Output
+###  Prewitt Edge Detector
+- Similar to Sobel but simpler kernel  
+- Detects directional edges  
+
+###  Roberts Edge Detector
+- Detects edges using diagonal gradients  
+- Sensitive to noise  
+
+###  Laplacian Edge Detector
+- Detects edges using second-order derivatives  
+- Highlights rapid intensity changes  
+
+###  Canny Edge Detector
+- Multi-stage edge detection  
+- Produces clean and thin edges  
 
 ---
 
 ## Result
 
-The implementation successfully demonstrates multiple edge detection techniques using OpenCV. Each operator highlights edges differently based on gradient and intensity variations, helping improve feature extraction and image analysis.
-
----
-
-## Author
-
-**Name:** KUKKADAPU CHARAN TEJ 
-**Register No:** 212224040167
-
----
+Thus, edges are successfully detected using Sobel, Prewitt, Roberts, Laplacian, and Canny edge detection techniques. Each method highlights edges differently based on gradient and intensity variations, improving feature extraction and analysis.

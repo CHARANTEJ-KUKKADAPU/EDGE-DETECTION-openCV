@@ -49,8 +49,8 @@ Display all edge-detected images for comparison.
 
 ## Developed By
 
-- **Name:** ____________________________  
-- **Register No:** ______________________  
+- **Name:**KUKKADAPU CHARAN TEJ
+- **Register No:** 212224040167
 
 ---
 
